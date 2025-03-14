@@ -20,7 +20,7 @@ Since you need to submit a CodeSandbox link with your response (_See [Submission
 
 #### Upload the project to CodeSandbox
 
-**NOTE: Make sure your CodeSandbox link can be edited. If your link is Read only, you will be disqualified as we are not able to grade your assignment. We strongly recommend you use this method to upload your project (with the CLI) rather than importing directly from Github to generate a CodeSandbox, as it makes it Read only by default.**
+**NOTE: We recommend you use this method to upload your project (with the CLI) rather than importing directly from Github to generate a CodeSandbox.**
 
 - Run `yarn install` or `npm install`
 - Run `yarn upload` or `npm run upload`
@@ -30,7 +30,7 @@ Since you need to submit a CodeSandbox link with your response (_See [Submission
 - Once it finishes, you will get the link for your CodeSandbox. Also, you can log in to the website with your Github account and see your projects to retrieve the link.
 - Start working directly on the CodeSandbox
 
-_Reference: https://codesandbox.io/docs/importing#import-local-projects-via-cli_
+_Reference: https://codesandbox.io/docs/learn/sandboxes/cli-api_
 
 Or
 
@@ -39,6 +39,8 @@ Or
 - Run `yarn install` or `npm install`
 - Run `yarn start`
 - The server will be available in `http://localhost:3000`
+
+If you work locally to solve the challenge, make sure you still follow the above steps to upload the project to CodeSandbox.
 
 ### Special considerations
 
@@ -50,7 +52,7 @@ You are not required to know Typescript and using it in this challenge is option
 
 If you work on the CodeSandbox, you can ignore any warnings on the code as long it works in the browser. However, feel free to write any Typescript code if your feel comfortable.
 
-If you work locally, `TSC_COMPLE_ON_ERROR` flag is set to `true` by default. However, if you feel comfortable with Typescript, feel free to remove it on `.env` and to write any Typescript code.
+If you work locally, `TSC_COMPILE_ON_ERROR` flag is set to `true` by default. However, if you feel comfortable with Typescript, feel free to remove it on `.env` and to write any Typescript code.
 
 #### API
 
@@ -193,7 +195,7 @@ _You need to fix some of the previous bugs in order to reproduce_
 
 **IMPORTANT:** Before sharing your CodeSandbox, open the `email.txt` file and replace your email on the only line of the file. Don't use any prefix or suffix, just your email.
 
-You will submit a link to a CodeSandbox with your responses. Make sure your CodeSandbox is not Read only and can be edited, otherwise you will be disqualified. _See [Coding](#coding)_
+You will submit a link to a CodeSandbox with your responses. Make sure your CodeSandbox has the shape of this Regex: `/^https:\/\/codesandbox\.io\/p\/sandbox\/[a-z\d]{6}$/`. _See [Coding](#coding)_
 
 ---
 
